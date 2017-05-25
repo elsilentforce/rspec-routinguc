@@ -20,4 +20,9 @@ Una vez agregada la gema procedemos a instalarla
 ``` bundle install ```
 
 RSpec luego de ser instalada necesita ser inicializada, para ello corremos el comando
+
 ``` rails generate rspec:install ```
+
+Esto genera el directorio `spec` donde escribiremos nuestros respectivos test.
+
+A modo de ejemplo se generó un User Scaffold el cual automáticamente creó una serie de pruebas básicas en el directorio mencionado anteriormente.
