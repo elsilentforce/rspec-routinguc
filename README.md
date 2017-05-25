@@ -1,4 +1,9 @@
 # Introducción a RSpec para RoutingUC
+El siguiente proyecto trata de un ejemplo básico para la creación de una nueva aplicación TDD.
+Para ello se utiliza:
+* Rails 5
+* RSpec
+
 
 ## Creación de aplicación
 Si lo que queremos es desarrollar una aplicación desde 0 utilizando como suite de pruebas RSpec debemos crearla utilizando el comando
@@ -17,6 +22,7 @@ end
 ```
 
 Una vez agregada la gema procedemos a instalarla
+
 ``` bundle install ```
 
 RSpec luego de ser instalada necesita ser inicializada, para ello corremos el comando
